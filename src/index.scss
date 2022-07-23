@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Alef&family=Poppins&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  width: 1262px;
+  margin: auto;
+  padding: 10px 15px;
+  box-shadow: 0px 4px 27px rgba(182, 182, 182, 0.78);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1232px;
+
+  .exit {
+    font-size: 20px;
+    padding: 15px 26px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #5a5c66;
+    color: #fff;
+
+    &:active {
+      background-color: #474955;
+    }
+  }
+
+  a {
+   text-decoration: none;
+  }
+}
+
+.searchItems {
+  background-color: #5a5c66;
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 26px;
+  margin-bottom: 15px;
+
+  input,
+  button {
+    color: #ccced2;
+    display: inline-block;
+    border: 0;
+    outline: none;
+    background-color: unset;
+  }
+
+  input {
+    flex: 1;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+//--------------------------------------------
+
+table {
+  min-width: 1232px;
+  border-spacing: 0;
+  border-collapse: collapse;
+
+  .itemId, .id {
+   width: 116px;
+  } 
+
+.title, .itemHeader {
+   width: 530px;
+   padding: 0 8px;
+} 
+
+  thead {
+   border: 1px solid #474955;
+ 
+   tr {
+     background-color: #474955;
+     color: #fff;
+     font-weight: 600;
+ 
+     th {
+       padding: 20px 25px;
+     }
+
+ 
+     img {
+       margin-left: 30px;
+     }
+   }
+ }
+
+ tbody {
+   font-size: 13px;
+ 
+   td {
+     border: 1px solid #e3e6ec;
+
+     li {
+       list-style-type: none;
+       text-align: center;
+     }
+   }
+ 
+   .id {
+     text-align: center;
+   }
+ 
+   .description {
+     height: 115px;
+     padding: 0 20px;
+   }
+ }
+
+}
+
+//--------------------------------------------
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #474955;
+  padding: 15px 30px;
+
+  button {
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: unset;
+    text-decoration: none;
+    color: unset;
+    color: #707177;
+    font-weight: 600;
+
+    &:active {
+      color: #5a5c66;
+    }
+  }
+
+  ul {
+    display: flex;
+    text-decoration: none;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    width: 104px;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    li {
+      cursor: pointer;
+    }
+  }
+
+  .active {
+    color: #7ebc3c;
+  }
+}
+.fetchig {
+   font-size: 70px;
+   font-weight: 600;
+   color: #474955;
+   text-align: center;
+   padding: 200px 0;
+ }
+
+ .fetchingWrap {
+   height: 1000px;
+ }
+
+
